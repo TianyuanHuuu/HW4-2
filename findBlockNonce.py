@@ -1,3 +1,7 @@
+import hashlib
+import os
+import random
+
 def mine_block(k, prev_hash, transactions):
     """
     k - Number of trailing zeros in the binary representation (integer)
